@@ -30,4 +30,4 @@ def open_spec(fl_name):
 fl = "bulge6-bri_u3svrg2.fits"
 spec = open_spec(fl)
 
-spec.to_csv(fl[:-4] + ".csv", sep=",", header=False, index=False)
+spec.to_csv(fl[:-5] + ".csv", sep=",", header=False, index=False)
